@@ -1,0 +1,183 @@
+body {
+    background-image: url(bats.gif);
+    background-repeat: repeat;
+
+    max-height: 100%;   
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    max-width: 960px;
+    border: 3px solid black;
+    background-color: white;
+    box-shadow: 0px 10px 15px 12px black;
+    margin: auto;   
+}
+
+
+#header {
+    padding-top: 0.01em;
+    padding-bottom: 0px;
+    margin: 0;
+    background: linear-gradient(45deg, white 0%, orange 50%, black 100%)
+}
+
+
+#header img{
+    float: left;
+    padding: 10px;
+    line-height: 0.5em;
+}
+
+
+a {
+    font-weight: bold;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+
+#content{
+    padding: 10px;
+    height:100%;
+    margin: -30px;
+}
+
+#leftnav{
+    display: block;
+    float: left;
+    color:black;
+    border: 1.5px solid black;
+    background-color: darkorange;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 6px 15px;
+    text-decoration: none;
+    width: 120px;  
+}
+
+#leftnav a{
+    color: black;
+    width: 160px;
+}
+
+.content {
+    margin: 0;
+}
+
+/*left nav stuff*/
+#nav{
+    width: 160px;
+    float: left;
+    min-height: 100%;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+/*top nav stuff */
+.navClass > ul {
+    background-color: black;
+    color: white;
+    display:block;
+}
+
+
+.navClass > ul > li {
+    list-style-type: none;
+    display:inline-block;
+    height: 30px;
+    width: 120px;
+    position: relative;
+    text-align: center;
+    padding-top:15px;
+}
+
+
+.navClass > ul > li:hover {
+    background-color: grey;
+}
+
+.navclass {
+    width: 100%;
+}
+
+.sub-menu{
+    display: none;
+    margin-top: 13px;
+    width: 120px;
+    position: absolute;
+    float: center;
+    background-color: black;
+    list-style-type: none;
+}
+
+
+.sub-menu a{
+    text-decoration: none;
+    display:block;
+    padding: 15px;
+    text-align: center;
+    padding-top:15px;
+    font-weight: normal;
+}
+
+
+.navClass li:hover .sub-menu{
+    display: block;
+}
+
+
+.sub-menu a:hover{
+    background-color: grey;
+}
+
+
+#main{
+    width: 760px;
+    margin-left: 200px;
+}
+
+
+#main li{
+    list-style-type: none;
+}
+
+.sideHeads {
+    text-align: left;
+    font-weight: bold;
+}
+
+.topHeads {
+    font-weight: bold;
+    text-align: center;
+    color: darkgray;
+}
+    
+#table{
+    width: 760px;
+    margin-left: 250px;
+    padding left: 40px;
+    padding-bottom: 0px;
+}
+
+
+
+#footer{
+    clear: both;
+    text-align: center;
+    border: 4px solid black;
+    padding: 10px 10px;
+    background: linear-gradient(-45deg, white 0%, orange 50%, black 100%)
+}
+
+.price {
+    background-color: #F5DEB3;
+    text-align: right;
+    margin: 5px;
+    width: 10px;
+    padding: 0px;
